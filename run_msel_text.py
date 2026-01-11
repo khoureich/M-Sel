@@ -33,6 +33,12 @@ def main():
     # encrypt M under the selection function pi
     C = msel.encrypt(mpk, pi, M)
 
+    '''
+    Now, we generate keys for different selection vectors and decrypt the ciphertext C.
+    The decryption result may contain grammatical errors. However, the combination of M-Sel and AI
+    makes it possible to improve the formulation of the result without distorting it.
+    '''
+    
     # generate a key for selection vector [1, 0, 0, 0]
     x = [1, 0, 0, 0]  # the last component is not used, see comments on lines 13-14.
     print("Selection Vector x:", x)
