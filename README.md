@@ -1,3 +1,9 @@
+<p align="center">
+    <img alt="ViewCount" src="https://views.whatilearened.today/views/github/MShawon/github-clone-count-badge.svg">
+    <a href='https://github.com/MShawon/github-clone-count-badge'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/khoureich/2626ea81094df019e49b433ea6957e8a/raw/clone.json&logo=github'></a>
+</p>
+
+
 # M-Sel
 Message Selection functional encryption (M-Sel)[1] is a practical application of Inner-Product Functional Encryption (IPFE)[2] which allows users to decrypt selected portions of a ciphertext. The plaintext is partitioned into a set of messages M = {m1, . . . , mt}. The encryption of M consists in encrypting each of its elements using distinct encryption keys. A user with a functional decryption key skx derived from a selection vector x can access a subset of M from the encryption thereof and nothing more.
 
